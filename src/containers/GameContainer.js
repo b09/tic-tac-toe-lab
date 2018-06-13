@@ -15,12 +15,19 @@ class GameContainer extends React.Component {
 
   handleCellSelected(index){
     const newBoard = this.state.board.slice(0)
+
     if (this.crossesTurn === true) {
-      newBoard[index] = 'X'
-      this.crossesTurn = false
+      if (newBoard[index] !== 'O')
+      {
+        newBoard[index] = 'X'
+        this.crossesTurn = false
+      }
     } else {
+      if (newBoard[index] !== 'X')
+      {
       newBoard[index] = 'O'
       this.crossesTurn = true
+      }
     }
     this.setState({board: newBoard})
   }
