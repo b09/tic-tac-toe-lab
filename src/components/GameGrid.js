@@ -3,7 +3,7 @@ import GameCell from './GameCell.js';
 
 const GameGrid = (props) => {
   return(
-    <div>Game Grid working</div>
+    <GameCell />
   )
 }
 
