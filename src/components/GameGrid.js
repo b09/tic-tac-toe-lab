@@ -8,7 +8,6 @@ const GameGrid = (props) => {
   })
 
   return(
-
     <div>
     {gameCells}
     </div>
