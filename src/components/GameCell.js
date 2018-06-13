@@ -2,7 +2,7 @@ import React from 'react';
 
 const GameCell = (props) => {
   return(
-    <div>Game Cell Working</div>
+    <div className="game-cell">Game Cell Working</div>
   )
 
 }

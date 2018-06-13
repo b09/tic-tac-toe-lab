@@ -4,6 +4,14 @@ import GameCell from './GameCell.js';
 const GameGrid = (props) => {
   return(
     <GameCell />
+    <GameCell />
+    <GameCell />
+    <GameCell />
+    <GameCell />
+    <GameCell />
+    <GameCell />
+    <GameCell />
+    <GameCell />
   )
 }
 
