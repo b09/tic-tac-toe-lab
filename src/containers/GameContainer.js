@@ -12,7 +12,7 @@ class GameContainer extends React.Component {
   render(){
     return(
       <div>
-        Hello World...
+        <GameGrid />
       </div>
     )
   }
