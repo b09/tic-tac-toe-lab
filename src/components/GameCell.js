@@ -4,8 +4,11 @@ const GameCell = (props) => {
 
   return(
     //TODO onClick listener for button
-    <div className="game-cell"><p>{props.cell}</p></div>
+    <div className="game-cell" id={props.index} onClick={() =>{props.changeCell(props.index)}}>
+      <button >{props.cell}</button>
+    </div>
   )
+
 
 }
 
